@@ -19,6 +19,7 @@ from django.urls import include
 
 from api import music
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('music.urls'))
